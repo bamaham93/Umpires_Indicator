@@ -1,0 +1,33 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home Page</title>
+        
+    </head>
+
+    <body>
+        <h1>Umpire's Indicator</h1>
+        <table>
+            <tr>
+                <td>Balls:</td>
+                <td class="data" id="balls-data"></td>
+                <td>Strikes:</td>
+                <td class="data" id="strikes-data"></td>
+                <td>Outs:</td>
+                <td class="data" id="outs-data"></td>
+                <td>Inning:</td>
+                <td class="data" id="inning-data"></td>
+                <td>Side:</td>
+                <td class="data" id="side-data"></td>
+            </tr>
+        </table>
+
+        <input type="button" onclick="ind.addBall()" value="Ball!">
+        <input type="button" onclick="ind.addStrike()" value="Strike!">
+        <input type="button" onclick="ind.addOut()" value="Out!">
+
+    </body>
+    <script src="index.js"></script>
+</html>
